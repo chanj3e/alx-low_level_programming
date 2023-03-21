@@ -6,23 +6,23 @@
 int main(void)
 {
 	int i = 0;
-	int x = 1, y = 2;
+	long x = 1, y = 2;
 
 	while (i < 50)
 	{
 		if (i == 0)
 		{
-			printf("%d", x);
+			printf("%ld", x);
 		}
 		else if (i == 1)
 		{
-			printf(", %d", y);
+			printf(", %ld", y);
 		}
 		else
 		{
 			y += x;
 			x = y - x;
-			printf(", %d", y);
+			printf(", %ld", y);
 		}
 		++i;
 	}
