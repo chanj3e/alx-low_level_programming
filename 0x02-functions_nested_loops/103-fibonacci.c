@@ -12,7 +12,6 @@ int main(void)
 	{
 		y += x;
 		if (y % 2 == 0)
-		
 			sum += y;
 		x = y - x;
 		++i;
