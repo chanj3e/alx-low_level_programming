@@ -6,7 +6,7 @@
 int main(void)
 {
 	int i = 0;
-	long x = 1, y = 2;
+	unsigned long x = 1, y = 2;
 
 	while (i < 98)
 	{
