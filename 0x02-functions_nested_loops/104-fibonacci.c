@@ -24,7 +24,7 @@ int main(void)
 			x = y - x;
 			printf(", %ld", y);
 		}
-		++i;
+		i++;
 	}
 	printf("\n");
 	return (0);
