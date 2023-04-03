@@ -4,6 +4,7 @@
  * @dest: memory stored
  * @src: memory copied
  * @n: number of bytes
+ * Return: mem
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
